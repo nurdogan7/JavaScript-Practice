@@ -1,0 +1,43 @@
+.container {
+    max-width: 1200px;
+}
+
+.text-reset {
+    text-decoration: none;
+    font-size: 11px;
+}
+.text-reset-2 {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.logo {
+    background-color: #fff !important;
+}
+.navbar-links {
+    list-style-type: none;
+}
+.text-reset-2 {
+    list-style-type: none;
+    text-decoration: none;
+}
+.form-control {
+    background-color: #f3f3f3;
+    position: relative;
+}
+.f-16 {
+    font-size: 16px;
+}
+.navbar-links a:hover {
+    color: #f27a1a;
+    transition: all 0.2s;
+}
+.search-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 360px;
+    bottom: calc(50% - 9px);
+    cursor: pointer;
+}
