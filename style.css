@@ -40,4 +40,33 @@
     right: 360px;
     bottom: calc(50% - 9px);
     cursor: pointer;
+    color: #f27a1a;
+}
+.my-1 {
+    width: 100%;
+}
+.category-list {
+    list-style-type: none;
+
+}
+.input-group .btn {
+    background: #f3f3f3;
+    color: #f27a1a;
+}
+
+@media (min-width: 375px) and (max-width: 1175px) { 
+
+.category-list {
+    display: none;
+}    
+
+.user-login {
+    display: none;
+}
+.input-group {
+    display: none;
+}
+.muted-list {
+    display: none;
+}
 }

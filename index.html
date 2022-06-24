@@ -18,7 +18,7 @@
     <header>
         <section class="vh-100 position-relative">
             <div class="container">
-                <div>
+                <div class="muted-list">
                     <ul class="top-header-right d-flex justify-content-end m-0 list-unstyled">
                         <li class="text-muted ms-4"><a class="text-reset" href="#">İndirim Kuponlarım</a></li>
                         <li class="text-muted ms-4"><a class="text-reset" href="#">Trendyol'da Satış Yap</a></li>
@@ -33,12 +33,17 @@
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <input class="form-control" type="search"
-                                placeholder="Aradığınız ürün, kategori veya markayı yazınız"
-                                style="height: 42px">
-                        <i class=" search-icon fa-solid fa-magnifying-glass"></i>
+                        <div class="input-group border">
+                            <input type="text" class="form-control border-0" placeholder="Search">
+                            <div class="input-group-btn">
+                              <button class="btn btn-default" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                              </button>
+                            </div>
+                          </div>
+                        
                     </div>
-                    <div class="f-16">
+                    <div class="f-16 user-login">
                         <ul class="navbar-links d-flex">
                             <li>
                                                                
@@ -60,6 +65,44 @@
                         </ul>
                     </div>
                     
+                       <div class="row category-list justify-content-center ms-4">
+                        <ul class="d-flex  m-0">
+                            <li class="d-inline-block px-3">Kadın</li>
+                            <li class="d-inline-block px-3">Erkek</li>
+                            <li class="d-inline-block px-3">Çocuk</li>
+                            <li class="d-inline-block px-3">Ev & Mobilya</li>
+                            <li class="d-inline-block px-3">Süpermarket</li>
+                            <li class="d-inline-block px-3">Kozmetik</li>
+                            <li class="d-inline-block px-3">Ayakkabı & Çanta</li>
+                            <li class="d-inline-block px-3">Saat & Aksesuar</li>
+                            <li class="d-inline-block px-3">Elektronik</li>
+                            <li class="d-inline-block px-3">Spor & Outdoor</li>
+                        </ul>
+                    </div> 
+                    <div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#">Giriş Yap</a></li>
+                              <li><a class="dropdown-item" href="#">Favorilerim</a></li>
+                              <li><a class="dropdown-item" href="#">Sepetim</a></li>
+                              <li><hr class="dropdown-divider"></li> 
+                              <li><a class="dropdown-item" href="#">Kadın</a></li>
+                              <li><a class="dropdown-item" href="#">Erkek</a></li>
+                              <li><a class="dropdown-item" href="#">Çocuk</a></li>
+                              <li><a class="dropdown-item" href="#">Ev & Mobilya</a></li>
+                              <li><a class="dropdown-item" href="#">Süpermarket</a></li>
+                              <li><a class="dropdown-item" href="#">Kozmetik</a></li>
+                              <li><a class="dropdown-item" href="#">Ayakkabı & Çanta</a></li>
+                              <li><a class="dropdown-item" href="#">Saat & Aksesuar</a></li>
+                              <li><a class="dropdown-item" href="#">Elektronik</a></li>
+                              <li><a class="dropdown-item" href="#">Spor & Outdoor</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    
                 </nav>
                 <hr class="my-1">
             </div>
@@ -70,6 +113,7 @@
     </header>
     <main></main>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
