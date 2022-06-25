@@ -11,7 +11,9 @@
     font-size: 15px;
     color: black;
 }
-
+.text-black {
+    color: black;
+}
 .logo {
     background-color: #fff !important;
 }
@@ -21,6 +23,9 @@
 .text-reset-2 {
     list-style-type: none;
     text-decoration: none;
+}
+.text-white {
+color: #fff;
 }
 .form-control {
     background-color: #f3f3f3;
@@ -45,6 +50,9 @@
 .my-1 {
     width: 100%;
 }
+.ms-6 {
+    margin-left: 5rem;
+}
 .category-list {
     list-style-type: none;
 
@@ -52,6 +60,16 @@
 .input-group .btn {
     background: #f3f3f3;
     color: #f27a1a;
+}
+.hamburger {
+    display: none;
+}
+.bg-grey {
+    background-color: #29293d;
+}
+.card-div .bg-grey:hover {
+    background-color: #f27a1a;
+    transition: all 0.3s;
 }
 
 @media (min-width: 375px) and (max-width: 1175px) { 
@@ -68,5 +86,8 @@
 }
 .muted-list {
     display: none;
+}
+.hamburger {
+    display: block;
 }
 }
