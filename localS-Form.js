@@ -16,7 +16,7 @@ let userFormDOM = document.querySelector("#userForm")
 userFormDOM.addEventListener('submit', formHandler)
 
 function formHandler(event) {
-    event.preventDefault()
+    event.preventDefault();
     const USER_NAME = document.querySelector("#username")
     const SCORE = document.querySelector("#score")
     if (USER_NAME.value && SCORE.value) {
